@@ -24,9 +24,9 @@ class Caesar:
 
     def decrypt(self, cipher):
     
-        as_lower = cipher.lower()
+        decrypt_lower = cipher.lower()
 
-        return str.translate(as_lower, self._decrypt_table)
+        return str.translate(decrypt_lower, self._decrypt_table)
 
 
 
